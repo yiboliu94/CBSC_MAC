@@ -31,7 +31,7 @@ module MAIN
 
 
 // convert input BN_X to SN_X
-wire [6:0] FSM;
+	wire [6:0] FSM;    //FSM is name of a module and port- this may not be allowed
 FSM FSM_0 (
 	.clk(clk),
 	.rst(rst),
